@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import React from "react";
 import "../App";
 import { API_URL } from "../API";
 import axios from "axios";
@@ -19,12 +20,12 @@ const BookList = () => {
   return (
     <div className="book-list">
       {books.map((book) => (
-        <div key={book.id} className="book">
+        <div key={book.id}>
           <div>
-            <h4>{book.title}</h4>
+            <h2>{book.title}</h2>
           </div>
           <div>
-            <img src={book.image_url} alt="#" />
+            <img src={book.title_url} alt="#" />
           </div>
           <div>
             <button>Add to Favorites</button>

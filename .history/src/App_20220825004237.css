@@ -30,26 +30,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
-  text-align: center;
-}
-
-.favorites {
-  min-height: 80vh;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  text-align: center;
-}
-
-.book-details {
-  min-height: 80vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  text-align: center;
-  padding: 10px;
 }
 
 a {
@@ -74,10 +54,6 @@ img:hover {
   align-items: center;
   justify-content: center;
   margin: 20px 0;
-}
-
-.book-description {
-  margin: 0x 10px;
 }
 
 button {
